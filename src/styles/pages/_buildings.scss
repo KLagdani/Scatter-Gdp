@@ -1,0 +1,38 @@
+.buildings-legend {
+  width: 100%;
+  &-svg {
+    display: block;
+    margin: auto;
+  }
+}
+
+.buildings-content {
+  width: 100%;
+  position: relative;
+  &-svgs {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.building-path {
+  cursor: pointer;
+}
+
+.header {
+  &-presentation {
+    width: 50rem;
+    display: block;
+    margin: 0 auto;
+    animation-name: enterRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &-link {
+    animation-name: enterLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+}
